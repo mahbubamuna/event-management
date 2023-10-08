@@ -1,50 +1,33 @@
 [
     {
       "id": 1,
-      "name": "Wedding Planning",
       "image": "https://i.ibb.co/NtRKjc2/planner.jpg",
-      "price": "$5,000 - $15,000",
-      "short_description": "Comprehensive wedding planning services",
       "detailed_description": "Our wedding planning service is designed to take the stress out of your special day. From the initial consultation to the last dance, we'll be with you every step of the way. Our experienced team will assist in venue selection, vendor coordination, budget management, and every other aspect of wedding planning. With our meticulous attention to detail, we'll ensure that your dream wedding becomes a reality."
     },
     {
       "id": 2,
-      "name": "Venue Selection",
       "image": "https://i.ibb.co/vkXK7X0/vanue.jpg",
-      "price": "$1,000 - $3,000",
-      "short_description": "Expert assistance in choosing the perfect venue",
       "detailed_description": "Selecting the perfect wedding venue is a crucial decision. Our venue selection service offers expert guidance in finding a location that perfectly matches your vision. We consider your style, guest count, and budget to recommend a range of stunning venues. We'll handle negotiations, contracts, and logistics to ensure a seamless experience. Let us help you set the stage for your unforgettable wedding."
     },
     {
       "id": 3,
-      "name": "Catering Services",
       "image": "https://i.ibb.co/qyx9QXs/cetaring2.jpg",
-      "price": "$50 - $100 per person",
-      "short_description": "Exquisite catering options for memorable dining",
       "detailed_description": "Indulge your guests with a culinary experience they won't forget. Our catering services offer a diverse range of menu options, from gourmet delicacies to traditional favorites. We'll work closely with you to create a customized menu that suits your preferences and dietary requirements. Our team of skilled chefs and attentive staff will ensure that your wedding reception is a culinary delight."
     },
     {
       "id": 4,
-      "name": "Photography ",
       "image": "https://i.ibb.co/drKRQV3/photoghaphy.jpg",
-      "price": "$2,000 - $5,000",
-      "short_description": "Professional photography and videography",
       "detailed_description": "Preserve the memories of your special day with our professional photography and videography services. Our talented team captures every emotion, every smile, and every detail with artistic flair. We use state-of-the-art equipment and editing techniques to provide you with stunning photographs and cinematic videos that you'll cherish for a lifetime."
     },
     {
       "id": 5,
-      "name": "Floral and Decor",
       "image": "https://i.ibb.co/HxnCqm8/floral.jpg",
-      "price": "$1,000 - $7,000",
-      "short_description": "Stunning floral arrangements and decor",
       "detailed_description": "Elevate your wedding ambiance with our floral and decor services. We specialize in creating breathtaking floral arrangements and thematic decor that reflect your unique style and vision. Our experienced designers will transform your venue into a magical space filled with color, fragrance, and elegance, ensuring that every corner exudes romance and charm."
     },
     {
       "id": 6,
-      "name": "Entertainment Services",
       "image": "https://i.ibb.co/hFBdMj4/entertainment.jpg",
-      "price": "$1,500 - $5,000",
-      "short_description": "Entertainment options to keep guests engaged",
       "detailed_description": "Create an unforgettable atmosphere for your wedding celebration with our entertainment services. From live music to DJ sets, we offer a variety of entertainment options to keep your guests engaged and entertained. Our experienced entertainers will curate a playlist that perfectly suits your taste, ensuring that your wedding reception is a lively and memorable event."
     }
   ]
+  

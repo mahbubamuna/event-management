@@ -5,7 +5,7 @@ const Banner = () => {
         <div>
              <div className="hero-content text-center text-neutral-content">
                     <div className="">
-                        <h1 className="mb-5 text-8xl font-semibold font-lobstar drop-shadow-xl   ">Crafting Dreams into Unforgettable Moments</h1>
+                        <h1 className="mb-5 text-3xl md:text-5xl lg:text-8xl font-semibold font-lobstar drop-shadow-xl   ">Crafting Dreams into Unforgettable Moments</h1>
                         
                     </div>
                 </div>

@@ -7,8 +7,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        lobstar: "'Lobster Two', cursive"
-      }
+        lobstar: "'Lobster Two', cursive",
+        josefin: "'Josefin Sans', sans-serif",
+      },
+
     },
   },
   plugins: [require("daisyui")],

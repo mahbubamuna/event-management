@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo.jpg";
-import { FaBeer, FaUser } from 'react-icons/fa';
+import {  FaUser } from 'react-icons/fa';
 
 
 const Navbar = () => {
