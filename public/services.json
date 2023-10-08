@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "Wedding Planning",
+      "image": "https://i.ibb.co/NtRKjc2/planner.jpg",
+      "price": "$5,000 - $15,000",
+      "short_description": "Comprehensive wedding planning services",
+      "detailed_description": "Our wedding planning service covers everything from venue selection to coordinating every detail of your special day. We'll work closely with you to ensure your dream wedding becomes a reality."
+    },
+    {
+      "id": 2,
+      "name": "Venue Selection",
+      "image": "https://i.ibb.co/vkXK7X0/vanue.jpg",
+      "price": "$1,000 - $3,000",
+      "short_description": "Expert assistance in choosing the perfect venue",
+      "detailed_description": "Finding the right wedding venue is crucial. We'll help you select a venue that suits your style and budget, ensuring that it's the perfect backdrop for your special day."
+    },
+    {
+      "id": 3,
+      "name": "Catering Services",
+      "image": "https://i.ibb.co/qyx9QXs/cetaring2.jpg",
+      "price": "$50 - $100 per person",
+      "short_description": "Exquisite catering options for memorable dining",
+      "detailed_description": "Our catering services offer a range of delectable options to delight your guests. We provide customized menus and a memorable dining experience that will leave a lasting impression."
+    },
+    {
+      "id": 4,
+      "name": "Photography and Videography",
+      "image": "https://i.ibb.co/drKRQV3/photoghaphy.jpg",
+      "price": "$2,000 - $5,000",
+      "short_description": "Professional photography and videography",
+      "detailed_description": "Capture every moment of your special day with our professional photography and videography services. Our experienced team will ensure that your memories are preserved beautifully."
+    },
+    {
+      "id": 5,
+      "name": "Floral and Decor",
+      "image": "https://i.ibb.co/HxnCqm8/floral.jpg",
+      "price": "$1,000 - $7,000",
+      "short_description": "Stunning floral arrangements and decor",
+      "detailed_description": "Transform your wedding venue into a magical space with our floral and decor services. We offer exquisite floral arrangements and decorative elements that will create a captivating ambiance."
+    },
+    {
+      "id": 6,
+      "name": "Entertainment Services",
+      "image": "https://i.ibb.co/hFBdMj4/entertainment.jpg",
+      "price": "$1,500 - $5,000",
+      "short_description": "Entertainment options to keep guests engaged",
+      "detailed_description": "Ensure your guests have a great time with our entertainment services. We offer live music, DJs, and other entertainment options to create an enjoyable atmosphere at your wedding."
+    }
+  ]
