@@ -15,11 +15,11 @@ const Home = () => {
 
     return (
         <div>
-            <Navbar></Navbar>
+            
             <Header></Header>
 
             {/* services part */}
-            <div className="p-3 max-w-6xl mx-auto my-5 lg:my-15">
+            <div className="p-3 max-w-6xl mx-auto my-5 lg:my-15" >
                 <h1 className="text-4xl font-lobstar font-semibold text-center text-[#c06b96]  ">Our Services</h1>
                 <div className="grid lg:grid-cols-3 gap-1 md:gap-4">
                     {
@@ -41,7 +41,7 @@ const Home = () => {
             {/*contact */}
             <Contact></Contact>
 
-            
+
             {/* footer */}
         </div>
     );
