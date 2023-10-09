@@ -24,12 +24,12 @@ const ServiceDetails = () => {
     return (
         <div className="p-3 max-w-6xl mx-auto my-5 lg:my-15">
             <div className="hero min-h-screen bg-[#D9C6BF]">
-                <div className="hero-content grid md:grid-cols-2">
+                <div className="hero-content grid md:grid-cols-2" data-aos= "fade-up">
                     <img src={image} className=" rounded-lg shadow-2xl" />
                     <div>
-                        <h1 className="text-3xl lg:text-5xl font-bold font-lobstar">{name}</h1>
-                        <p className="py-6 font-josefin">{detailed_description}</p>
-                        <p className="pb-6 font-lobstar text-4xl text-[#b35182]">{price}</p>
+                        <h1 data-aos= "fade-right" className="text-3xl lg:text-5xl font-bold font-lobstar">{name}</h1>
+                        <p data-aos= "fade-left" className="py-6 font-josefin">{detailed_description}</p>
+                        <p data-aos= "fade-right" className="pb-6 font-lobstar text-4xl text-[#b35182]">{price}</p>
                         <button onClick={handlePurchase} className="btn btn-neutral hover:bg-[#c06b96] font-josefin">Purchase</button>
                     </div>
                 </div>
