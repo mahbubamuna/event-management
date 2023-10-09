@@ -1,12 +1,14 @@
 import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../components/AuthProvider/AuthProvider";
+import swal from 'sweetalert';
+import { updateProfile } from "firebase/auth";
 
 
 const Register = () => {
 
     const [success, setSuccess] = useState();
-    const [loginError, setLoginError] = useState();
+    const [registerError, setRegisterError] = useState();
 
     const {createUser} = useContext(AuthContext);
 
@@ -16,20 +18,43 @@ const Register = () => {
         const form = new FormData(e.currentTarget);
         const email = form.get('email');
         const password = form.get('password');
-        console.log(email, password);
+        const name = form.get('name');
+        const photo = form.get('photo');
+        console.log(email, password, name , photo);
+
+        if (!/^(?=.*[A-Z])(?=.*[@#$%^&+=!])(?=.{6,})/.test(password)){
+            swal({
+                title: "Error",
+                text: "Your password should have at least 6 characters with a capital letter and a special character",
+                icon: "error",
+              });
+
+              return;
+        }
 
         setSuccess('');
-        setLoginError('');
+        setRegisterError('');
 
         createUser(email,password)
         .then(result=>{
             console.log(result.user)
             setSuccess('Registered successfully')
+
+            updateProfile(result.user, {
+                displayName: name,
+                photoURL: "https://example.com/jane-q-user/profile.jpg"
+
+                .then()
+                .catch()
+            })
+            
         })
         .catch(error=>{
             console.error(error)
-            setLoginError(error.message)
+            setRegisterError(error.message)
         })
+
+        
         
     }
     return (
@@ -74,7 +99,7 @@ const Register = () => {
                     success && <p className="text-green-700 ">{success}</p>
                 }
                 {
-                    loginError && <p className="text-red-500 ">{loginError}</p>
+                    registerError && <p className="text-red-500 ">{registerError}</p>
                 }
                 <p>Already have an account? <Link to="/login" className="font-bold font-lobstar text-[#b35182]" >Log in</Link></p>
             </form>

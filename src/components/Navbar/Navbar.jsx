@@ -14,9 +14,9 @@ const Navbar = () => {
     }
 
     const navLinks = <>
-        <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/about">About us</NavLink></li>
-        <li><NavLink to="/contact">contact</NavLink></li>
+        <li className=" font-josefin font-semibold text-lg"><NavLink to="/">Home</NavLink></li>
+        <li className=" font-josefin font-semibold text-lg"><NavLink to="/package">Packages</NavLink></li>
+        <li className=" font-josefin font-semibold text-lg"><NavLink to="/contact">contact</NavLink></li>
     </>
 
     return (
@@ -51,6 +51,7 @@ const Navbar = () => {
                             <FaUser></FaUser>
                         </div>
                     </label>
+                   
                     {
                         user ? <button onClick={handleLogOut} className="btn">Sign Out</button>
                             :

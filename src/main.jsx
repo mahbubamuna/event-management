@@ -14,6 +14,8 @@ import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
 import AuthProvider from './components/AuthProvider/AuthProvider';
 import PrivateRoute from './Root/PrivateRoute';
+import Packages from './Pages/Packages/Packages';
+import Contact from './components/Contact/Contact';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +40,15 @@ const router = createBrowserRouter([
       {
         path: "/register",
         element: <Register></Register>
+      },
+      {
+        path: "/package",
+        element: <PrivateRoute><Packages></Packages></PrivateRoute>,
+        loader: ()=>fetch(`/details.json`)
+      },
+      {
+        path: "/contact",
+        element: <PrivateRoute><Contact></Contact></PrivateRoute>
       }
     ]
   },

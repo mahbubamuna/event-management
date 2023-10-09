@@ -1,6 +1,7 @@
 import { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../components/AuthProvider/AuthProvider";
+import { FaGoogle } from "react-icons/fa";
 
 
 const Login = () => {
@@ -8,9 +9,22 @@ const Login = () => {
     const [success, setSuccess] = useState();
     const [loginError, setLoginError] = useState();
 
-    const { signIn } = useContext(AuthContext);
+
+    const { signIn, googleSignIn } = useContext(AuthContext);
     const location = useLocation();
     const navigate = useNavigate()
+
+    const handleGoogleSignIn = e => {
+        e.preventDefault();
+        googleSignIn()
+        .then(result=>{
+            console.log(result.user)
+        })
+        .catch(error => {
+            console.error(error)
+            setLoginError(error.message)
+        })
+    }
 
     const handleLogIn = e => {
         e.preventDefault();
@@ -19,7 +33,7 @@ const Login = () => {
         const email = form.get('email');
         const password = form.get('password');
         console.log(email, password);
-        
+
         setSuccess('');
         setLoginError('');
 
@@ -64,8 +78,11 @@ const Login = () => {
                     loginError && <p className="text-red-500 ">{loginError}</p>
                 }
                 <p>Don't have an account? <Link to="/register" className="font-bold font-lobstar text-[#b35182]" >Register Now</Link></p>
+                <div>
+                    <Link><button onClick={handleGoogleSignIn} className="btn mt-6 items-center"> <FaGoogle className="text-xl mr-3 text-blue-500"></FaGoogle> Log in With Google</button></Link> 
+                </div>
             </form>
-
+                
 
         </div>
     );

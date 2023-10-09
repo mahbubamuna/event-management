@@ -1,33 +1,38 @@
 [
-    {
-      "id": 1,
-      "image": "https://i.ibb.co/NtRKjc2/planner.jpg",
-      "detailed_description": "Our wedding planning service is designed to take the stress out of your special day. From the initial consultation to the last dance, we'll be with you every step of the way. Our experienced team will assist in venue selection, vendor coordination, budget management, and every other aspect of wedding planning. With our meticulous attention to detail, we'll ensure that your dream wedding becomes a reality."
-    },
-    {
-      "id": 2,
-      "image": "https://i.ibb.co/vkXK7X0/vanue.jpg",
-      "detailed_description": "Selecting the perfect wedding venue is a crucial decision. Our venue selection service offers expert guidance in finding a location that perfectly matches your vision. We consider your style, guest count, and budget to recommend a range of stunning venues. We'll handle negotiations, contracts, and logistics to ensure a seamless experience. Let us help you set the stage for your unforgettable wedding."
-    },
-    {
-      "id": 3,
-      "image": "https://i.ibb.co/qyx9QXs/cetaring2.jpg",
-      "detailed_description": "Indulge your guests with a culinary experience they won't forget. Our catering services offer a diverse range of menu options, from gourmet delicacies to traditional favorites. We'll work closely with you to create a customized menu that suits your preferences and dietary requirements. Our team of skilled chefs and attentive staff will ensure that your wedding reception is a culinary delight."
-    },
-    {
-      "id": 4,
-      "image": "https://i.ibb.co/drKRQV3/photoghaphy.jpg",
-      "detailed_description": "Preserve the memories of your special day with our professional photography and videography services. Our talented team captures every emotion, every smile, and every detail with artistic flair. We use state-of-the-art equipment and editing techniques to provide you with stunning photographs and cinematic videos that you'll cherish for a lifetime."
-    },
-    {
-      "id": 5,
-      "image": "https://i.ibb.co/HxnCqm8/floral.jpg",
-      "detailed_description": "Elevate your wedding ambiance with our floral and decor services. We specialize in creating breathtaking floral arrangements and thematic decor that reflect your unique style and vision. Our experienced designers will transform your venue into a magical space filled with color, fragrance, and elegance, ensuring that every corner exudes romance and charm."
-    },
-    {
-      "id": 6,
-      "image": "https://i.ibb.co/hFBdMj4/entertainment.jpg",
-      "detailed_description": "Create an unforgettable atmosphere for your wedding celebration with our entertainment services. From live music to DJ sets, we offer a variety of entertainment options to keep your guests engaged and entertained. Our experienced entertainers will curate a playlist that perfectly suits your taste, ensuring that your wedding reception is a lively and memorable event."
-    }
-  ]
+  {
+    "id": 1,
+    "short_title": "Muslim Wedding",
+    "price": "$5,000 - $10,000",
+    "details_description": "Experience the beauty of a traditional Muslim wedding with our expert planning. Our package includes a stunning venue, exquisite halal catering, and everything needed to create an elegant and culturally rich celebration.",
+    "image": "https://i.ibb.co/pxNjYNJ/muslim.jpg"
+  },
   
+  {
+    "id": 2,
+    "short_title": "Western Wedding",
+    "price": "$7,000 - $15,000",
+    "details_description": "Embrace the romance of a Western-style wedding with our comprehensive package. We provide a charming rustic venue, gourmet catering, and all the elements to make your day a true fairytale.",
+    "image": "https://i.ibb.co/1btZChV/westean.jpg"
+  },
+  {
+    "id": 3,
+    "short_title": "Beach Wedding",
+    "price": "$8,000 - $12,000",
+    "details_description": "Say 'I do' with the sand between your toes and the sound of the waves as your backdrop. Our beach wedding package includes a beautiful coastal venue, seafood delights, and the perfect setting for a memorable ceremony.",
+    "image": "https://i.ibb.co/3mXhFmt/beach.jpg"
+  },
+  {
+    "id": 4,
+    "short_title": "Vintage Wedding",
+    "price": "$6,000 - $11,000",
+    "details_description": "Step back in time with our vintage wedding package. We offer a historic venue, retro-inspired decor, and a touch of nostalgia. Celebrate your love in style with this unique and timeless experience.",
+    "image": "https://i.ibb.co/j5N5zTL/Mendoza-Alvarez-Elmer-Escobar-Photography-Los-Angeles-Wedding-Photographers3979-0-low.jpg"
+  },
+  {
+    "id": 5,
+    "short_title": "Hindu Wedding",
+    "price": "$6,500 - $12,500",
+    "details_description": "Celebrate your love with the vibrant traditions of a Hindu wedding. Our package includes a stunning temple venue, traditional cuisine, and all the rituals to make your day spiritually enriching and memorable.",
+    "image": "https://i.ibb.co/f0jKvzC/hindu.jpg"
+  }
+]
