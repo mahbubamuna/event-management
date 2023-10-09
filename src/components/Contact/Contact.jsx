@@ -11,7 +11,7 @@ const Contact = () => {
 
 
                         {/* card */}
-                        <div className="card my-10 w-full card-compact bg-transparent  shadow-xl">
+                        <div className="card my-10 w-full card-compact bg-transparent  shadow-xl" data-aos= "fade-right">
                             <FaMapMarkerAlt className='text-5xl text-center font-semibold w-full text-[#c06b96]'></FaMapMarkerAlt>
                             <div className="card-body font-josefin text-black ">
                                 <h2 className="card-title text-3xl mx-auto">Location</h2>
@@ -21,7 +21,7 @@ const Contact = () => {
 
                             </div>
                         </div>
-                        <div className="card w-full my-10 card-compact bg-transparent  shadow-xl">
+                        <div className="card w-full my-10 card-compact bg-transparent  shadow-xl" data-aos= "fade-up">
                             <FaPhoneAlt className='text-5xl text-center font-semibold w-full text-[#c06b96]'></FaPhoneAlt>
                             <div className="card-body font-josefin text-black ">
                                 <h2 className="card-title text-3xl mx-auto">Phone </h2>
@@ -31,7 +31,7 @@ const Contact = () => {
 
                             </div>
                         </div>
-                        <div className="card w-full my-10 card-compact bg-transparent  shadow-xl">
+                        <div className="card w-full my-10 card-compact bg-transparent  shadow-xl" data-aos= "fade-left">
                             <FaRegClock className='text-5xl text-center font-semibold w-full text-[#c06b96]'></FaRegClock>
                             <div className="card-body font-josefin text-black ">
                                 <h2 className="card-title text-3xl mx-auto">Time </h2>
