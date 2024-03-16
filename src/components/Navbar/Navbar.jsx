@@ -37,7 +37,7 @@ const Navbar = () => {
                     <Link to={"/"}>
                         <div className="flex items-center">
                             <img src="https://i.ibb.co/Hn96Kfp/flowers-6590404-1280.png" className="w-20" alt="" />
-                            <p className=" font-lobstar font-semibold text-2xl">
+                            <p className=" font-lobstar font-semibold text-xl md:text-2xl">
                                 Wedding <span className="text-[#b35182]">Planer</span>
                             </p>
                         </div>
