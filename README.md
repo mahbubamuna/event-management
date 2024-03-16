@@ -1,6 +1,6 @@
 # wedding planner
 
-## [ Project live Link](https://65240f35b28fb8052cedcc07--bejewelled-lamington-418524.netlify.app/)
+## [ Project live Link](https://65f57ff7a4d565a8616a2c7b--bejewelled-lamington-418524.netlify.app/)
 
 Features of my event management website
 
