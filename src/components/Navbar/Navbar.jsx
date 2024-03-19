@@ -17,7 +17,7 @@ const Navbar = () => {
     const navLinks = <>
         <li className=" font-josefin font-semibold text-xl"><NavLink to="/">Home</NavLink></li>
         <li className=" font-josefin font-semibold text-xl"><NavLink to="/package">Packages</NavLink></li>
-        <li className=" font-josefin font-semibold text-xl"><NavLink to="/contact">contact</NavLink></li>
+        <li className=" font-josefin font-semibold text-xl"><NavLink to="/contact">Contact Us</NavLink></li>
     </>
 
     return (
